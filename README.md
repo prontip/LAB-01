@@ -48,12 +48,23 @@ WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR  lpCmdLine, int nCmdshow)
 
 ## บันทึกผลการทดลอง
 
+จากการทดลอง ในการใช้โปรแกรม Visual Studio 2015 พิมพ์ตามโค้ดที่ได้รับ และทำการกด Ctrl+F5 จะแสดงหน้าต่างที่มีข้อความ Hello World! This is my first win32 program!
+
+![](https://github.com/prontip/LAB-01/blob/master/imgs/lab1jib.jpg?raw=true)
+
  [ให้สรุปผลการทดลอง แล้ว commit changes จากนั้นให้ส่งไปที่ edmodo]
  เหตุผลที่ต้องแจ้ง เพราะส่วนใหญ่ไม่ได้ใช้ชื่อจริง + รหัสนักศึกษา ในการสมัคร github
 
 ## คำถาม 
 1. นักศึกษาพบปัญหาในการคอมไพล์โปรแกรมหรือไม่ ถ้าเจอให้บอกที่ผิดและแนวทางการแก้ไข
+
+ ตอบ ไม่พบปัญหา
+ 
 2. ให้ทดลองแก้ไข <code> MessageBox(...) </code> โดยการเปลี่ยน <code> MB_OK </code> เป็นค่าอื่นๆ [ดูได้จากอ้างอิงตามลิงค์นี้](https://github.com/Desktop-Programming-Lab-2559/LAB-01/blob/master/message-box.md)
+
+เมื่อทำการเปลี่ยนในส่วนตามข้อ2จะปรากฎ เป็น yes , no และ cancle
+
+![](https://github.com/prontip/LAB-01/blob/master/imgs/lab1-2.jpg?raw=true)
 
 ```c 
  	MessageBox(NULL, "Hello World! This is my first win32 program!", "Lesson1", MB_OK);
